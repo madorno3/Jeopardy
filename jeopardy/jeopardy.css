@@ -1,0 +1,145 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+/* .loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(174, 0, 255); 
+  transition: opacity 0.80s, visibility 5s;
+}
+
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: blue;
+  border-radius: 50%;
+  animation: loading 1s ease infinite;
+
+}
+
+@keyframes loading {
+  from{
+    transform: rotate(0turn);
+  }
+  to{
+    transform: rotate(1turn);
+  }
+}
+
+.loadingText{
+  text-align: center;
+  font-size: 60pt;
+} */
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(174, 0, 255, 0.7);
+  transition: opacity 2s, visibility 2s, display 5s;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: blue;
+  border-radius: 50%;
+  animation: loading 2s ease infinite;
+}
+
+@keyframes loading {
+  from { transform: rotate(0turn); }
+  to { transform: rotate(1turn); }
+}
+
+.loadingText {
+  text-align: center;
+  font-size: 60pt;
+  color: white;
+  margin-top: 20px;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 60pt;
+}
+.top_row_style {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(174, 0, 255);
+  border: 10px;
+  border-color: blue;
+  color: azure;
+  border-radius: 10px;
+  
+  
+}
+
+.body_style {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 10px;
+  border-color: antiquewhite;
+  color: azure;
+  text-align: center;
+  border-radius: 10px;
+  
+  
+}
+
+.p {
+  font-size: 8pt;
+
+}
+
+#container{
+  margin: auto;
+  width: 50%;
+  align-items: center;
+}
+
+.reset-btn{
+  height: 30px;
+  width: 100px;
+  background-color: rgb(174, 0, 255);
+  border: 10px;
+  border-color: antiquewhite;
+  color: azure;
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
